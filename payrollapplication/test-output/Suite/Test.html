@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Apr 04 10:54:14 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>627 seconds (627642 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.payroll.testscripts.InvoiceTest.TC_25_invoice()'><b>TC_25_invoice</b><br>Test class: com.payroll.testscripts.InvoiceTest</td>
+<td></td>
+<td>4</td>
+<td>com.payroll.testscripts.InvoiceTest@4229bb3f</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ReportTest.TC_30_view_Company_Performance()'><b>TC_30_view_Company_Performance</b><br>Test class: com.payroll.testscripts.ReportTest</td>
+<td></td>
+<td>10</td>
+<td>com.payroll.testscripts.ReportTest@2b91004a</td></tr>
+<tr>
+<td title='com.payroll.testscripts.DeductionTest.TC_22_view_Deduction()'><b>TC_22_view_Deduction</b><br>Test class: com.payroll.testscripts.DeductionTest</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.DeductionTest@7fee8714</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_10_editOption()'><b>TC_10_editOption</b><br>Test class: com.payroll.testscripts.ClientTest</td>
+<td></td>
+<td>6</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.CompanyTest.TC_04()'><b>TC_04</b><br>Test class: com.payroll.testscripts.CompanyTest</td>
+<td></td>
+<td>4</td>
+<td>com.payroll.testscripts.CompanyTest@3232a28a</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_17_view_Worker_Payslip_History()'><b>TC_17_view_Worker_Payslip_History</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>11</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.DeductionTest.TC_23_edit_Deduction()'><b>TC_23_edit_Deduction</b><br>Test class: com.payroll.testscripts.DeductionTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.DeductionTest@7fee8714</td></tr>
+<tr>
+<td title='com.payroll.testscripts.SigninTest.TC_03_forgotPassword()'><b>TC_03_forgotPassword</b><br>Test class: com.payroll.testscripts.SigninTest</td>
+<td></td>
+<td>8</td>
+<td>com.payroll.testscripts.SigninTest@37654521</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_15_view_Worker()'><b>TC_15_view_Worker</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.DeductionTest.TC_24_add_Deduction()'><b>TC_24_add_Deduction</b><br>Test class: com.payroll.testscripts.DeductionTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.DeductionTest@7fee8714</td></tr>
+<tr>
+<td title='com.payroll.testscripts.SigninTest.TC_01_correct_Credential()'><b>TC_01_correct_Credential</b><br>Test class: com.payroll.testscripts.SigninTest</td>
+<td></td>
+<td>9</td>
+<td>com.payroll.testscripts.SigninTest@37654521</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_12_search_Worker()'><b>TC_12_search_Worker</b><br>Test class: com.payroll.testscripts.WorkersTest<br>Parameters: Akhila, Mathew, 123, A123</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_19_view_Worker_Deduction_History()'><b>TC_19_view_Worker_Deduction_History</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>10</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ReportTest.TC_28_report_Page_Verification()'><b>TC_28_report_Page_Verification</b><br>Test class: com.payroll.testscripts.ReportTest</td>
+<td></td>
+<td>6</td>
+<td>com.payroll.testscripts.ReportTest@2b91004a</td></tr>
+<tr>
+<td title='com.payroll.testscripts.PaySlipTest.TC_26_payslipscreate()'><b>TC_26_payslipscreate</b><br>Test class: com.payroll.testscripts.PaySlipTest</td>
+<td></td>
+<td>4</td>
+<td>com.payroll.testscripts.PaySlipTest@56cdfb3b</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_07_searchForValidClientAndInvalidClientByName_Only()'><b>TC_07_searchForValidClientAndInvalidClientByName_Only</b><br>Test class: com.payroll.testscripts.ClientTest<br>Parameters: Selenium12, 5455, Search unsuccessful</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_07_searchForValidClientAndInvalidClientByName_Only()'><b>TC_07_searchForValidClientAndInvalidClientByName_Only</b><br>Test class: com.payroll.testscripts.ClientTest<br>Parameters: Akhila Mathew, 694, Search successful</td>
+<td></td>
+<td>6</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_21_edit_Worker_details()'><b>TC_21_edit_Worker_details</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>10</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.PaySlipTest.TC_27_download_Payslip()'><b>TC_27_download_Payslip</b><br>Test class: com.payroll.testscripts.PaySlipTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.PaySlipTest@56cdfb3b</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_12_search_Worker()'><b>TC_12_search_Worker</b><br>Test class: com.payroll.testscripts.WorkersTest<br>Parameters: Dennis123, Benny123, BN23 5RL2, SZ593292A1</td>
+<td></td>
+<td>6</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.SigninTest.TC_02_wrongCredential()'><b>TC_02_wrongCredential</b><br>Test class: com.payroll.testscripts.SigninTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.SigninTest@37654521</td></tr>
+<tr>
+<td title='com.payroll.testscripts.DashBoardTest.TC_05()'><b>TC_05</b><br>Test class: com.payroll.testscripts.DashBoardTest</td>
+<td></td>
+<td>2</td>
+<td>com.payroll.testscripts.DashBoardTest@73e22a3d</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_18_view_Worker_Timesheet_History()'><b>TC_18_view_Worker_Timesheet_History</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>10</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_14_verify_Mandatoryfield_Submission()'><b>TC_14_verify_Mandatoryfield_Submission</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_11_pageTitileCheck()'><b>TC_11_pageTitileCheck</b><br>Test class: com.payroll.testscripts.ClientTest</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_09_viewOption()'><b>TC_09_viewOption</b><br>Test class: com.payroll.testscripts.ClientTest</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_20_view_Worker_Rate()'><b>TC_20_view_Worker_Rate</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>11</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ReportTest.TC_29_view_PayReport()'><b>TC_29_view_PayReport</b><br>Test class: com.payroll.testscripts.ReportTest</td>
+<td></td>
+<td>7</td>
+<td>com.payroll.testscripts.ReportTest@2b91004a</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_13_create_New_Worker()'><b>TC_13_create_New_Worker</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>13</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_06_searchForValidClientAndInvalidClientByName_ID()'><b>TC_06_searchForValidClientAndInvalidClientByName_ID</b><br>Test class: com.payroll.testscripts.ClientTest<br>Parameters: Akhila Mathew, 694, Search successful</td>
+<td></td>
+<td>6</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.WorkersTest.TC_16_view_Worker_Bankdeatils()'><b>TC_16_view_Worker_Bankdeatils</b><br>Test class: com.payroll.testscripts.WorkersTest</td>
+<td></td>
+<td>11</td>
+<td>com.payroll.testscripts.WorkersTest@6da21078</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_06_searchForValidClientAndInvalidClientByName_ID()'><b>TC_06_searchForValidClientAndInvalidClientByName_ID</b><br>Test class: com.payroll.testscripts.ClientTest<br>Parameters: Selenium12, 5455, Search unsuccessful</td>
+<td></td>
+<td>5</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+<tr>
+<td title='com.payroll.testscripts.ClientTest.TC_08_createNewUser()'><b>TC_08_createNewUser</b><br>Test class: com.payroll.testscripts.ClientTest</td>
+<td></td>
+<td>9</td>
+<td>com.payroll.testscripts.ClientTest@f736069</td></tr>
+</table><p>
+</body>
+</html>

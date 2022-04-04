@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-04T10:54:14 IST" name="Suite" finished-at="2022-04-04T11:04:42 IST" duration-ms="627642">
+    <groups>
+    </groups>
+    <test started-at="2022-04-04T10:54:14 IST" name="Test" finished-at="2022-04-04T11:04:42 IST" duration-ms="627642">
+      <class name="com.payroll.testscripts.SigninTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:54:14 IST" name="initilizeBrowser" finished-at="2022-04-04T10:54:35 IST" duration-ms="20797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_03_forgotPassword()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:54:35 IST" name="TC_03_forgotPassword" finished-at="2022-04-04T10:54:44 IST" duration-ms="8528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_forgotPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:54:44 IST" name="tearDown" finished-at="2022-04-04T10:54:44 IST" duration-ms="573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:54:44 IST" name="initilizeBrowser" finished-at="2022-04-04T10:54:53 IST" duration-ms="8329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_01_correct_Credential()[pri:1, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:54:53 IST" name="TC_01_correct_Credential" finished-at="2022-04-04T10:55:02 IST" duration-ms="9070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_correct_Credential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:55:02 IST" name="tearDown" finished-at="2022-04-04T10:55:02 IST" duration-ms="542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:55:02 IST" name="initilizeBrowser" finished-at="2022-04-04T10:55:15 IST" duration-ms="13236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_02_wrongCredential()[pri:2, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:55:15 IST" name="TC_02_wrongCredential" finished-at="2022-04-04T10:55:23 IST" duration-ms="7576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_wrongCredential -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.SigninTest@37654521]" started-at="2022-04-04T10:55:23 IST" name="tearDown" finished-at="2022-04-04T10:55:23 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.SigninTest -->
+      <class name="com.payroll.testscripts.PaySlipTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:07 IST" name="initilizeBrowser" finished-at="2022-04-04T11:03:18 IST" duration-ms="10203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_26_payslipscreate()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:18 IST" name="TC_26_payslipscreate" finished-at="2022-04-04T11:03:23 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_26_payslipscreate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:23 IST" name="tearDown" finished-at="2022-04-04T11:03:23 IST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:23 IST" name="initilizeBrowser" finished-at="2022-04-04T11:03:32 IST" duration-ms="8842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_27_download_Payslip()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:32 IST" name="TC_27_download_Payslip" finished-at="2022-04-04T11:03:39 IST" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_27_download_Payslip -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.PaySlipTest@56cdfb3b]" started-at="2022-04-04T11:03:39 IST" name="tearDown" finished-at="2022-04-04T11:03:39 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.PaySlipTest -->
+      <class name="com.payroll.testscripts.InvoiceTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.InvoiceTest@4229bb3f]" started-at="2022-04-04T11:02:54 IST" name="initilizeBrowser" finished-at="2022-04-04T11:03:03 IST" duration-ms="9120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_25_invoice()[pri:0, instance:com.payroll.testscripts.InvoiceTest@4229bb3f]" started-at="2022-04-04T11:03:03 IST" name="TC_25_invoice" finished-at="2022-04-04T11:03:07 IST" duration-ms="4370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_25_invoice -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.InvoiceTest@4229bb3f]" started-at="2022-04-04T11:03:07 IST" name="tearDown" finished-at="2022-04-04T11:03:07 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.InvoiceTest -->
+      <class name="com.payroll.testscripts.DashBoardTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.DashBoardTest@73e22a3d]" started-at="2022-04-04T10:55:37 IST" name="initilizeBrowser" finished-at="2022-04-04T10:55:46 IST" duration-ms="9025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_05()[pri:0, instance:com.payroll.testscripts.DashBoardTest@73e22a3d]" started-at="2022-04-04T10:55:46 IST" name="TC_05" finished-at="2022-04-04T10:55:49 IST" duration-ms="2917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.DashBoardTest@73e22a3d]" started-at="2022-04-04T10:55:49 IST" name="tearDown" finished-at="2022-04-04T10:55:49 IST" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.DashBoardTest -->
+      <class name="com.payroll.testscripts.ClientTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:55:49 IST" name="initilizeBrowser" finished-at="2022-04-04T10:55:58 IST" duration-ms="8779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_06_searchForValidClientAndInvalidClientByName_ID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:55:58 IST" name="TC_06_searchForValidClientAndInvalidClientByName_ID" data-provider="searchClient" finished-at="2022-04-04T10:56:04 IST" duration-ms="6844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akhila Mathew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[694]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Search successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_searchForValidClientAndInvalidClientByName_ID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:04 IST" name="tearDown" finished-at="2022-04-04T10:56:05 IST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:05 IST" name="initilizeBrowser" finished-at="2022-04-04T10:56:12 IST" duration-ms="7753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_06_searchForValidClientAndInvalidClientByName_ID(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:12 IST" name="TC_06_searchForValidClientAndInvalidClientByName_ID" data-provider="searchClient" finished-at="2022-04-04T10:56:18 IST" duration-ms="5685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5455]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Search unsuccessful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_06_searchForValidClientAndInvalidClientByName_ID -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:18 IST" name="tearDown" finished-at="2022-04-04T10:56:18 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:18 IST" name="initilizeBrowser" finished-at="2022-04-04T10:56:26 IST" duration-ms="7744" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_07_searchForValidClientAndInvalidClientByName_Only(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:26 IST" name="TC_07_searchForValidClientAndInvalidClientByName_Only" data-provider="searchClient" finished-at="2022-04-04T10:56:32 IST" duration-ms="6209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akhila Mathew]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[694]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Search successful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_searchForValidClientAndInvalidClientByName_Only -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:32 IST" name="tearDown" finished-at="2022-04-04T10:56:33 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:33 IST" name="initilizeBrowser" finished-at="2022-04-04T10:56:43 IST" duration-ms="10263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_07_searchForValidClientAndInvalidClientByName_Only(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:43 IST" name="TC_07_searchForValidClientAndInvalidClientByName_Only" data-provider="searchClient" finished-at="2022-04-04T10:56:49 IST" duration-ms="5770" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5455]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Search unsuccessful]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_07_searchForValidClientAndInvalidClientByName_Only -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:49 IST" name="tearDown" finished-at="2022-04-04T10:56:49 IST" duration-ms="349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:56:49 IST" name="initilizeBrowser" finished-at="2022-04-04T10:57:00 IST" duration-ms="10762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_08_createNewUser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:00 IST" name="TC_08_createNewUser" finished-at="2022-04-04T10:57:09 IST" duration-ms="9675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_08_createNewUser -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:09 IST" name="tearDown" finished-at="2022-04-04T10:57:10 IST" duration-ms="526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:10 IST" name="initilizeBrowser" finished-at="2022-04-04T10:57:21 IST" duration-ms="10516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_09_viewOption()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:21 IST" name="TC_09_viewOption" finished-at="2022-04-04T10:57:26 IST" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_09_viewOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:26 IST" name="tearDown" finished-at="2022-04-04T10:57:26 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:26 IST" name="initilizeBrowser" finished-at="2022-04-04T10:57:33 IST" duration-ms="7251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_10_editOption()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:33 IST" name="TC_10_editOption" finished-at="2022-04-04T10:57:39 IST" duration-ms="6042" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_10_editOption -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:39 IST" name="tearDown" finished-at="2022-04-04T10:57:40 IST" duration-ms="360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:40 IST" name="initilizeBrowser" finished-at="2022-04-04T10:57:54 IST" duration-ms="14265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_11_pageTitileCheck()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:54 IST" name="TC_11_pageTitileCheck" finished-at="2022-04-04T10:57:59 IST" duration-ms="5172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_11_pageTitileCheck -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ClientTest@f736069]" started-at="2022-04-04T10:57:59 IST" name="tearDown" finished-at="2022-04-04T10:58:00 IST" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.ClientTest -->
+      <class name="com.payroll.testscripts.WorkersTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:00 IST" name="initilizeBrowser" finished-at="2022-04-04T10:58:15 IST" duration-ms="15235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_12_search_Worker(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:15 IST" name="TC_12_search_Worker" data-provider="get_searchdata_Workers" finished-at="2022-04-04T10:58:21 IST" duration-ms="5632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akhila]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mathew]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[A123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_search_Worker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:21 IST" name="tearDown" finished-at="2022-04-04T10:58:21 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:21 IST" name="initilizeBrowser" finished-at="2022-04-04T10:58:31 IST" duration-ms="10094" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_12_search_Worker(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:31 IST" name="TC_12_search_Worker" data-provider="get_searchdata_Workers" finished-at="2022-04-04T10:58:38 IST" duration-ms="6749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dennis123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Benny123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[BN23 5RL2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[SZ593292A1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_12_search_Worker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:38 IST" name="tearDown" finished-at="2022-04-04T10:58:38 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:38 IST" name="initilizeBrowser" finished-at="2022-04-04T10:58:47 IST" duration-ms="8460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_13_create_New_Worker()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:58:47 IST" name="TC_13_create_New_Worker" finished-at="2022-04-04T10:59:00 IST" duration-ms="13428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_13_create_New_Worker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:00 IST" name="tearDown" finished-at="2022-04-04T10:59:01 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:01 IST" name="initilizeBrowser" finished-at="2022-04-04T10:59:24 IST" duration-ms="23206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_14_verify_Mandatoryfield_Submission()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:24 IST" name="TC_14_verify_Mandatoryfield_Submission" finished-at="2022-04-04T10:59:31 IST" duration-ms="7409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_14_verify_Mandatoryfield_Submission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:31 IST" name="tearDown" finished-at="2022-04-04T10:59:32 IST" duration-ms="283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:32 IST" name="initilizeBrowser" finished-at="2022-04-04T10:59:44 IST" duration-ms="12132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_15_view_Worker()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:44 IST" name="TC_15_view_Worker" finished-at="2022-04-04T10:59:52 IST" duration-ms="7984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_15_view_Worker -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:52 IST" name="tearDown" finished-at="2022-04-04T10:59:52 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T10:59:52 IST" name="initilizeBrowser" finished-at="2022-04-04T11:00:03 IST" duration-ms="11012" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_16_view_Worker_Bankdeatils()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:03 IST" name="TC_16_view_Worker_Bankdeatils" finished-at="2022-04-04T11:00:14 IST" duration-ms="11028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_16_view_Worker_Bankdeatils -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:14 IST" name="tearDown" finished-at="2022-04-04T11:00:15 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:15 IST" name="initilizeBrowser" finished-at="2022-04-04T11:00:25 IST" duration-ms="10330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_17_view_Worker_Payslip_History()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:25 IST" name="TC_17_view_Worker_Payslip_History" finished-at="2022-04-04T11:00:37 IST" duration-ms="11973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_17_view_Worker_Payslip_History -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:37 IST" name="tearDown" finished-at="2022-04-04T11:00:38 IST" duration-ms="687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:38 IST" name="initilizeBrowser" finished-at="2022-04-04T11:00:48 IST" duration-ms="10028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_18_view_Worker_Timesheet_History()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:48 IST" name="TC_18_view_Worker_Timesheet_History" finished-at="2022-04-04T11:00:58 IST" duration-ms="10332" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_18_view_Worker_Timesheet_History -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:58 IST" name="tearDown" finished-at="2022-04-04T11:00:59 IST" duration-ms="510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:00:59 IST" name="initilizeBrowser" finished-at="2022-04-04T11:01:08 IST" duration-ms="9419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_19_view_Worker_Deduction_History()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:08 IST" name="TC_19_view_Worker_Deduction_History" finished-at="2022-04-04T11:01:19 IST" duration-ms="10728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_19_view_Worker_Deduction_History -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:19 IST" name="tearDown" finished-at="2022-04-04T11:01:19 IST" duration-ms="337" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:19 IST" name="initilizeBrowser" finished-at="2022-04-04T11:01:31 IST" duration-ms="11841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_20_view_Worker_Rate()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:31 IST" name="TC_20_view_Worker_Rate" finished-at="2022-04-04T11:01:42 IST" duration-ms="11284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_20_view_Worker_Rate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:42 IST" name="tearDown" finished-at="2022-04-04T11:01:43 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:43 IST" name="initilizeBrowser" finished-at="2022-04-04T11:01:52 IST" duration-ms="9259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_21_edit_Worker_details()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:01:52 IST" name="TC_21_edit_Worker_details" finished-at="2022-04-04T11:02:02 IST" duration-ms="10015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_21_edit_Worker_details -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.WorkersTest@6da21078]" started-at="2022-04-04T11:02:02 IST" name="tearDown" finished-at="2022-04-04T11:02:02 IST" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.WorkersTest -->
+      <class name="com.payroll.testscripts.ReportTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:03:39 IST" name="initilizeBrowser" finished-at="2022-04-04T11:03:48 IST" duration-ms="9613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_28_report_Page_Verification()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:03:48 IST" name="TC_28_report_Page_Verification" finished-at="2022-04-04T11:03:55 IST" duration-ms="6983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_28_report_Page_Verification -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:03:55 IST" name="tearDown" finished-at="2022-04-04T11:03:56 IST" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:03:56 IST" name="initilizeBrowser" finished-at="2022-04-04T11:04:05 IST" duration-ms="9762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_29_view_PayReport()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:04:05 IST" name="TC_29_view_PayReport" finished-at="2022-04-04T11:04:13 IST" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_29_view_PayReport -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:04:13 IST" name="tearDown" finished-at="2022-04-04T11:04:13 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:04:13 IST" name="initilizeBrowser" finished-at="2022-04-04T11:04:31 IST" duration-ms="18366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_30_view_Company_Performance()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:04:31 IST" name="TC_30_view_Company_Performance" finished-at="2022-04-04T11:04:42 IST" duration-ms="10329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_30_view_Company_Performance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.ReportTest@2b91004a]" started-at="2022-04-04T11:04:42 IST" name="tearDown" finished-at="2022-04-04T11:04:42 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.ReportTest -->
+      <class name="com.payroll.testscripts.CompanyTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.CompanyTest@3232a28a]" started-at="2022-04-04T10:55:23 IST" name="initilizeBrowser" finished-at="2022-04-04T10:55:32 IST" duration-ms="8730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_04()[pri:0, instance:com.payroll.testscripts.CompanyTest@3232a28a]" started-at="2022-04-04T10:55:32 IST" name="TC_04" finished-at="2022-04-04T10:55:36 IST" duration-ms="4334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.CompanyTest@3232a28a]" started-at="2022-04-04T10:55:36 IST" name="tearDown" finished-at="2022-04-04T10:55:37 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.CompanyTest -->
+      <class name="com.payroll.testscripts.DeductionTest">
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:02 IST" name="initilizeBrowser" finished-at="2022-04-04T11:02:12 IST" duration-ms="9975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_22_view_Deduction()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:12 IST" name="TC_22_view_Deduction" finished-at="2022-04-04T11:02:18 IST" duration-ms="5395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_22_view_Deduction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:18 IST" name="tearDown" finished-at="2022-04-04T11:02:18 IST" duration-ms="351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:18 IST" name="initilizeBrowser" finished-at="2022-04-04T11:02:28 IST" duration-ms="9683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_23_edit_Deduction()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:28 IST" name="TC_23_edit_Deduction" finished-at="2022-04-04T11:02:35 IST" duration-ms="7751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_23_edit_Deduction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:35 IST" name="tearDown" finished-at="2022-04-04T11:02:36 IST" duration-ms="334" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="initilizeBrowser()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:36 IST" name="initilizeBrowser" finished-at="2022-04-04T11:02:46 IST" duration-ms="9907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initilizeBrowser -->
+        <test-method signature="TC_24_add_Deduction()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:46 IST" name="TC_24_add_Deduction" finished-at="2022-04-04T11:02:53 IST" duration-ms="7684" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_24_add_Deduction -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.payroll.testscripts.DeductionTest@7fee8714]" started-at="2022-04-04T11:02:53 IST" name="tearDown" finished-at="2022-04-04T11:02:54 IST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.payroll.testscripts.DeductionTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

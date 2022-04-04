@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.payroll.automationbase.Listerners"/>
+</listeners>
+  <test thread-count="5" name="Test">
+<classes>
+<class name="com.payroll.testscripts.SigninTest">
+</class>
+
+<class name="com.payroll.testscripts.CompanyTest"/>
+
+<class name="com.payroll.testscripts.DashBoardTest"/> 
+
+ 
+
+<class name="com.payroll.testscripts.ClientTest">
+</class>
+
+<class name="com.payroll.testscripts.WorkersTest" >
+</class> 
+
+<class name="com.payroll.testscripts.DeductionTest">
+</class>
+
+<class name="com.payroll.testscripts.InvoiceTest">
+</class> 
+
+<class name="com.payroll.testscripts.PaySlipTest">
+</class>
+
+
+<class name="com.payroll.testscripts.ReportTest">
+</class> 
+
+</classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
